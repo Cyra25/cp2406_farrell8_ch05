@@ -5,7 +5,7 @@ public class EvenOdd {
         Scanner input  = new Scanner(System.in);
         System.out.println("Please enter a number");
         int number = input.nextInt();
-        if (number/2 == 0){
+        if (number%2 == 0){
             System.out.println("This number is even");
         }
         else{
